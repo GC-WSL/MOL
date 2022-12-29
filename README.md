@@ -38,3 +38,31 @@ bash ./configs/NWPU/test_30000.sh 0 NWPU vgg16 model_name
 ```Shell
 python gen_pseudo_labels.py ./predictions_dir ./NWPU_trainval.json
 ```
+
+## Get Started-Stage 2
+### Installation
+```Shell
+conda create -n MOL-2 python=3.6
+cd MOL-2
+pip install -e cvpods --user
+cd cvpods
+python setup.py develop
+```
+### Data Preparation
+Download the NWPU VHR-10.v2/DIOR dataset and put them into the `./MOL-2/cvpods/datasets` directory. For example:
+```Shell
+  ./MOL-2/cvpods/datasets/NWPU/                           
+  ./MOL-2/cvpods/datasets/NWPU/annotations/NWPU_trainval.json
+  ./MOL-2/cvpods/datasets/NWPU/annotations/NWPU_test.json
+  ./MOL-2/cvpods/datasets/NWPU/train2017  
+  ./MOL-2/cvpods/datasets/NWPU/val2017    
+```
+
+### Training
+```Shell
+CUDA_VISIBLE_DEVICES=0 pods_train --num-gpus 1 --dir ./model_name
+```
+### Testing
+```Shell
+CUDA_VISIBLE_DEVICES=0 pods_test --num-gpus 1 --dir ./model_name MODEL.WEIGHTS ./model_name/model_final.pth
+```
