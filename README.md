@@ -46,6 +46,7 @@ python gen_pseudo_labels.py ./predictions_dir ./NWPU_trainval.json
 ### Installation
 ```Shell
 conda create -n MOL-2 python=3.6
+pip install torch==1.6.0 torchvision==0.7.0
 cd MOL-2
 pip install -e cvpods --user
 cd cvpods
