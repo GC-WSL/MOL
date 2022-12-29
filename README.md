@@ -25,7 +25,10 @@ Utilizing the selective search tools implemented in opencv-python to generate ca
   ./MOL-1/data/selective_search_data/NWPU_val.mat
   ./MOL-1/data/selective_search_data/NWPU_test.mat  
 ```
+### Pretrained weights
+Download Link: [https://pan.baidu.com/s/1VkkkfWuI6UgC3EKD00njxw](https://pan.baidu.com/s/1VkkkfWuI6UgC3EKD00njxw)
 
+Extraction Code：qwvk
 ### Training
 ```Shell
 bash ./configs/NWPU/train_30000.sh 0 NWPU vgg16 model_name
@@ -57,7 +60,10 @@ Download the NWPU VHR-10.v2/DIOR dataset and put them into the `./MOL-2/cvpods/d
   ./MOL-2/cvpods/datasets/NWPU/train2017  
   ./MOL-2/cvpods/datasets/NWPU/val2017    
 ```
+### Pretrained weights
+Download Link: [https://pan.baidu.com/s/1VkkkfWuI6UgC3EKD00njxw](https://pan.baidu.com/s/1VkkkfWuI6UgC3EKD00njxw)
 
+Extraction Code：qwvk
 ### Training
 ```Shell
 CUDA_VISIBLE_DEVICES=0 pods_train --num-gpus 1 --dir ./MOL
