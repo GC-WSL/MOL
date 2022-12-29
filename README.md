@@ -60,9 +60,9 @@ Download the NWPU VHR-10.v2/DIOR dataset and put them into the `./MOL-2/cvpods/d
 
 ### Training
 ```Shell
-CUDA_VISIBLE_DEVICES=0 pods_train --num-gpus 1 --dir ./model_name
+CUDA_VISIBLE_DEVICES=0 pods_train --num-gpus 1 --dir ./MOL
 ```
 ### Testing
 ```Shell
-CUDA_VISIBLE_DEVICES=0 pods_test --num-gpus 1 --dir ./model_name MODEL.WEIGHTS ./model_name/model_final.pth
+CUDA_VISIBLE_DEVICES=0 pods_test --num-gpus 1 --dir ./MOL MODEL.WEIGHTS ./MOL/model_final.pth
 ```
