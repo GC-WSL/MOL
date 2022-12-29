@@ -12,18 +12,18 @@ cd MOL-1/lib
 bash make_cuda.sh
 ```
 ### Data Preparation
-Download the NWPU VHR-10.v2/DIOR dataset and put them into the `./data` directory. For example:
+Download the NWPU VHR-10.v2/DIOR dataset and put them into the `./MOL-1/data` directory. For example:
 ```Shell
-  ./data/NWPU/                           
-  ./data/NWPU/Annotations
-  ./data/NWPU/JPEGImages
-  ./data/NWPU/ImageSets    
+  ./MOL-1/data/NWPU/                           
+  ./MOL-1/data/NWPU/Annotations
+  ./MOL-1/data/NWPU/JPEGImages
+  ./MOL-1/data/NWPU/ImageSets    
 ```
-Utilizing the selective search tools implemented in opencv-python to generate candidate proposals and put them into the `./data/selective_search_data`. For example:
+Utilizing the selective search tools implemented in opencv-python to generate candidate proposals and put them into the `./MOL-1/data/selective_search_data`. For example:
 ```Shell
-  ./selective_search_data/NWPU_train.mat                           
-  ./selective_search_data/NWPU_val.mat
-  ./selective_search_data/NWPU_test.mat  
+  ./MOL-1/data/selective_search_data/NWPU_train.mat                           
+  ./MOL-1/data/selective_search_data/NWPU_val.mat
+  ./MOL-1/data/selective_search_data/NWPU_test.mat  
 ```
 
 ### Training
