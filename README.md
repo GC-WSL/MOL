@@ -26,9 +26,9 @@ Utilizing the selective search tools implemented in opencv-python to generate ca
   ./MOL-1/data/selective_search_data/NWPU_test.mat  
 ```
 ### Pretrained weights
-Download Link: [https://pan.baidu.com/s/1VkkkfWuI6UgC3EKD00njxw](https://pan.baidu.com/s/1VkkkfWuI6UgC3EKD00njxw)
+Download Link: [https://pan.baidu.com/s/1WoFTYaXTgTjEE-cWM9Bf6A](https://pan.baidu.com/s/1WoFTYaXTgTjEE-cWM9Bf6A)
 
-Extraction Code：qwvk
+Extraction Code：jmv3
 ### Training
 ```Shell
 bash ./configs/NWPU/train_30000.sh 0 NWPU vgg16 model_name
