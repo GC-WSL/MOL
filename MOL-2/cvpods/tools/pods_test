@@ -1,0 +1,2 @@
+#!/bin/bash
+python3 /media/zxr/DATA/WGC/WSOD/RS-WSOD/FSOD/MOL-2/cvpods/tools/test_net.py $@
