@@ -1,5 +1,6 @@
 # MOL
 The official code of "MOL: Towards Accurate Weakly Supervised Remote Sensing Object Detection via Multi-view nOisy Learning".
+![Image text](https://github.com/GC-WSL/MOL/MOL.png)
 
 ## Get Started-Stage 1
 ### Installation
