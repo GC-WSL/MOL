@@ -34,3 +34,7 @@ bash ./configs/NWPU/train_30000.sh 0 NWPU vgg16 model_name
 ```Shell
 bash ./configs/NWPU/test_30000.sh 0 NWPU vgg16 model_name
 ```
+### Generating Pseudo-labels
+```Shell
+python gen_pseudo_labels.py ./predictions_dir ./NWPU_trainval.json
+```
