@@ -29,6 +29,10 @@ Utilizing the selective search tools implemented in opencv-python to generate ca
 Download Link: [https://pan.baidu.com/s/1WoFTYaXTgTjEE-cWM9Bf6A](https://pan.baidu.com/s/1WoFTYaXTgTjEE-cWM9Bf6A)
 
 Extraction Code：jmv3
+
+### Selective Search Data
+Download Link: [https://pan.baidu.com/s/1ZrMGGKOLKyNVKE5PJigf0w](https://pan.baidu.com/s/1ZrMGGKOLKyNVKE5PJigf0w) 
+Extraction Code：81ed
 ### Training
 ```Shell
 bash ./configs/NWPU/train_30000.sh 0 NWPU vgg16 model_name
